@@ -1,4 +1,4 @@
-#### Movie App with createElement
+#### Movie App with createElement.
 
 - Create you own `createElement` function similar to `elm` function in the explainer videos
 - Refactor the movie watch list app created in the previous exercise to use `createElement` function to create DOM element in the app.
