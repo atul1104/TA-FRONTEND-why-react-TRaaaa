@@ -18,7 +18,7 @@ input.addEventListener('keyup', (event) => {
     console.log(event.target.value);
     allMovies.push({
       name: event.target.value,
-      watched: true,
+      watched: false,
     });
     event.target.value = '';
     createMovieUI();
@@ -34,20 +34,20 @@ function deleteMovie(event) {
 
 function handleChange(event) {
   let id = event.target.id;
-  console.log(id);
   allMovies[id].watched = !allMovies[id].watched;
+  createMovieUI();
 }
 
 function createMovieUI() {
   rootElm.innerHTML = '';
   allMovies.forEach((movie, i) => {
     let li = document.createElement('li');
-    let input = document.createElement('input');
-    input.type = 'checkbox';
-    input.id = i;
-    input.checked = movie.watched;
+    // let input = document.createElement('input');
+    // input.type = 'checkbox';
+    // input.id = i;
+    // input.checked = movie.watched;
 
-    input.addEventListener('change', handleChange);
+    // input.addEventListener('change', handleChange);
 
     let label = document.createElement('label');
     label.for = i;
@@ -58,8 +58,12 @@ function createMovieUI() {
 
     span.addEventListener('click', deleteMovie);
     let hr = document.createElement('hr');
+    let button = document.createElement('button');
+    button.id = i;
+    button.innerText = movie.watched ? 'Watched' : 'To Watch';
+    button.addEventListener('click', handleChange);
 
-    li.append(input, label, span, hr);
+    li.append(label, span, button, hr);
     rootElm.append(li);
   });
 }
