@@ -153,3 +153,6 @@ span {
   font-weight: 700;
   cursor: pointer;
 }
+button {
+  margin-left: 2rem;
+}
