@@ -1,4 +1,4 @@
-#### Create Article Card Using JSX
+#### Create Article Card Using JSX.
 
 - Create a news app similar to the one give in preview (named Gizmo).
 - Break down the home page into different components.
@@ -14,12 +14,10 @@
 [
   {
     author: 'Omkar Godbole',
-    title:
-      'Third Halving Turns Out to Be Non-Event for Bitcoin’s Price',
+    title: 'Third Halving Turns Out to Be Non-Event for Bitcoin’s Price',
     description:
       "Bitcoin's price volatility has declined following the network's third mining reward halving event on Monday.",
-    url:
-      'https://www.coindesk.com/third-blockchain-halving-turns-out-non-event-bitcoins-price',
+    url: 'https://www.coindesk.com/third-blockchain-halving-turns-out-non-event-bitcoins-price',
     urlToImage:
       'https://static.coindesk.com/wp-content/uploads/2020/05/btc-chart-may-12-1200x628.png',
     publishedAt: '2020-05-12T11:40:34Z',
@@ -28,12 +26,10 @@
   },
   {
     author: 'Samuel Haig',
-    title:
-      'Gibraltar Financial Services Minister Talks ‘Staying Ahead’ on DLT',
+    title: 'Gibraltar Financial Services Minister Talks ‘Staying Ahead’ on DLT',
     description:
       'Gibraltar’s minister for digital and financial services spoke to Cointelegraph about regulating market manipulation in the blockchain sector.',
-    url:
-      'https://cointelegraph.com/news/gibraltar-financial-services-minister-talks-staying-ahead-on-dlt',
+    url: 'https://cointelegraph.com/news/gibraltar-financial-services-minister-talks-staying-ahead-on-dlt',
     urlToImage:
       'https://s3.cointelegraph.com/storage/uploads/view/353dbd86242a1d269f2c88dee06f347b.jpg',
     publishedAt: '2020-05-12T11:24:00Z',
@@ -46,8 +42,7 @@
       "4 Reasons the Bitcoin Halving Won't Trigger a Big ‘Miner Capitulation’",
     description:
       'Bitcoin miners are not likely to see capitulation and especially a “mining death spiral” after the 2020 halving due to four major reasons.',
-    url:
-      'https://cointelegraph.com/news/4-reasons-the-bitcoin-halving-wont-trigger-a-big-miner-capitulation',
+    url: 'https://cointelegraph.com/news/4-reasons-the-bitcoin-halving-wont-trigger-a-big-miner-capitulation',
     urlToImage:
       'https://s3.cointelegraph.com/storage/uploads/view/d48310014a898546a95b35ed741b8eac.jpg',
     publishedAt: '2020-05-12T11:08:00Z',
@@ -60,8 +55,7 @@
       'Coronavirus-related Cyber Attacks jump 30% in past two weeks - TEISS',
     description:
       'In the past two weeks, Check Point researchers have documented an average of 192,000 coronavirus-related cyber attacks per week, marking a 30% increase compared to previous weeks. Researchers found that a majority of these attacks start with phishing emails i…',
-    url:
-      'https://www.teiss.co.uk/coronavirus-related-cyber-attacks-jump-30-in-past-two-weeks/',
+    url: 'https://www.teiss.co.uk/coronavirus-related-cyber-attacks-jump-30-in-past-two-weeks/',
     urlToImage:
       'https://s31405.pcdn.co/wp-content/uploads/2020/05/iStock-1177170875.jpg',
     publishedAt: '2020-05-12T11:04:00Z',
@@ -74,8 +68,7 @@
       'Analysts Fear “Extreme” Post-Halving Bitcoin Capitulation: Why That’s Good',
     description:
       'On Monday, the Bitcoin block reward halving finally came to pass. It was an exciting event celebrated by tens of thousands of cryptocurrency investors, with thousands packing into celebratory live streams, tens of thousands liking halving tweets, and hundreds…',
-    url:
-      'https://www.newsbtc.com/2020/05/12/analysts-fear-extreme-post-halving-bitcoin-capitulation-why-this-isnt-bad/',
+    url: 'https://www.newsbtc.com/2020/05/12/analysts-fear-extreme-post-halving-bitcoin-capitulation-why-this-isnt-bad/',
     urlToImage:
       'https://www.newsbtc.com/wp-content/uploads/2020/05/jackson-david-WUydTfaP3t4-unsplash-1200x780.jpg',
     publishedAt: '2020-05-12T11:00:42Z',
@@ -89,8 +82,7 @@
       'Kronoverse Leaves Ethereum-based Enjin System to Use Bitcoin SV to Tokenize Esports In-game Items',
     description:
       "LONDON, May 12, 2020 /PRNewswire/ -- eSports games creator, Kronoverse, and its competitive strategy game CryptoFights, have moved to the Bitcoin SV blockchain to tokenize users' in–game items because of the lack of scalability of the Ethereum blockchain. Pre…",
-    url:
-      'https://www.prnewswire.com/news-releases/kronoverse-leaves-ethereum-based-enjin-system-to-use-bitcoin-sv-to-tokenize-esports-in-game-items-301057499.html',
+    url: 'https://www.prnewswire.com/news-releases/kronoverse-leaves-ethereum-based-enjin-system-to-use-bitcoin-sv-to-tokenize-esports-in-game-items-301057499.html',
     urlToImage:
       'https://www.prnewswire.com/content/dam/prnewswire/common/prn_facebook_sharing_logo.jpg',
     publishedAt: '2020-05-12T11:00:00Z',
@@ -99,12 +91,10 @@
   },
   {
     author: 'Boris Cumbo',
-    title:
-      '5 Mistakes Every New Crypto Trader Should Avoid',
+    title: '5 Mistakes Every New Crypto Trader Should Avoid',
     description:
       'The crypto industry is relatively new. Because of that, people need time to adapt to it. You will…\nThe post 5 Mistakes Every New Crypto Trader Should Avoid appeared first on The Frisky.',
-    url:
-      'https://thefrisky.com/mistakes-crypto-trader-should-avoid/',
+    url: 'https://thefrisky.com/mistakes-crypto-trader-should-avoid/',
     urlToImage:
       'https://thefrisky.com/wp-content/uploads/2020/05/crypto-trader.jpg',
     publishedAt: '2020-05-12T09:09:22Z',
