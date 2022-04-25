@@ -1,4 +1,4 @@
-#### Create Article Card Using JSX
+#### Create Article Card Using JSX.
 
 - Create an article card using JSX
 - Have a look at UI down below
