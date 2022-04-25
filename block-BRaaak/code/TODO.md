@@ -1,4 +1,4 @@
-#### Create Multiple Cards Using JSX
+#### Create Multiple Cards Using JSX.
 
 - Create a collection of cards using JSX
 - Create a component named `Article` which will get access to props and create the individual article UI.
@@ -31,8 +31,7 @@ let articles = [
       'https://techcrunch.com/wp-content/uploads/2019/09/twitter-hidden-replies1.png?resize=1536,816',
   },
   {
-    title:
-      'Startups look beyond lidar for autonomous vehicle perception',
+    title: 'Startups look beyond lidar for autonomous vehicle perception',
     date: new Date('2017-07-26'),
     comments: 17,
     subTitle:
