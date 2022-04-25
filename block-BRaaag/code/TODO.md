@@ -1,4 +1,4 @@
-#### Movie App with JSX
+#### Movie App with JSX.
 
 - Copy the code from previous exercise
 - Refactor it to use `JSX` using babel
