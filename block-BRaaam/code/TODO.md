@@ -1,4 +1,4 @@
-#### Layout to Components
+#### Layout to Components.
 
 - You have been give a layout (Twitter Layout) below
 - Use any drawing tool / notebook to break the layout into small small components.
