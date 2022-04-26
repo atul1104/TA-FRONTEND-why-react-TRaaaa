@@ -1,4 +1,4 @@
-#### Adding PropTypes To Article App Components
+#### Adding PropTypes To Article App Components.
 
 - Get the code from the app you have created in the previous exercise (Articles App)
 - Add prop types to all the components
