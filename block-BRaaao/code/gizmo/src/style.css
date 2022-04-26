@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  text-decoration: none;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+header a:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+header a:active {
+  transform: translateY(-1px);
+}
+header ul {
+  display: flex;
+}
+header li {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+header > h3 {
+  font-size: 1.5rem;
+}
+.hero {
+  background-image: url('../public/hero-img.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 7rem 2rem;
+}
+.hero h1,
+p {
+  font-size: 2rem;
+  color: white;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.articles li {
+  width: 38%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.articles ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.articles ul p {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.articles figure img {
+  width: 100%;
+}
+.articles figure {
+  position: relative;
+}
+.articles figcaption {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  background-color: rgba(155, 155, 155, 0.5);
+  color: white;
+  padding: 1rem;
+  border-top-right-radius: 5px;
+}
+
+.articles a {
+  text-decoration: none;
+  padding: 1em 2em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.articles a:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.articles a:active {
+  transform: translateY(-1px);
+}
+
+footer {
+  background-color: cadetblue;
+  padding: 1rem 0;
+  text-align: center;
+}
+footer small {
+  font-weight: 600;
+}
