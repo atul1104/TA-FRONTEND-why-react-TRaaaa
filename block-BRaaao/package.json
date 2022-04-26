@@ -9,6 +9,8 @@
   "author": "AltCampus",
   "license": "GNU GPL V3",
   "dependencies": {
+    "create-react-app": "^5.0.1",
+    "gizmo": "^2.0.1",
     "jest": "^26.0.1"
   }
 }
