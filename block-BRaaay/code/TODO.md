@@ -1,4 +1,4 @@
-#### Create Colors Structure
+#### Create Colors Structure.
 
 - Create a structure like give in preview
 - Use the data from the file `colors.json`
