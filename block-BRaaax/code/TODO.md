@@ -1,4 +1,4 @@
-# Button Design System
+# Button Design System.
 
 ## Properties That The Button Component Can Be Passed
 
