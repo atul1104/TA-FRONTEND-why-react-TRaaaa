@@ -1,4 +1,4 @@
-#### Convert Static HTML to React
+#### Convert Static HTML to React.
 
 - You have been given a static HTML/CSS website
 - Open `index.html` to look at the UI
@@ -7,5 +7,3 @@
 - Break the UI into small small component
 - Try making components small
 - You can copy stylesheet and HTML (convert into React)
-
-
