@@ -40,3 +40,6 @@
 ### Demo
 
 ![Button Display](https://github.com/nnnkit/react-tasks/raw/master/button-types/buttons.png)
+
+
+<!-- Problem solver and fast learner with strong communication skills. I am motivated to upgrade and expand my skill set through mentorship and challenging projects. I enjoy working collaboratively but can also run with projects independently. I am excited about the prospect of joining a Ingoude company. -->
