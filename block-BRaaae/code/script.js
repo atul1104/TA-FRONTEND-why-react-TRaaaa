@@ -15,7 +15,6 @@ let allMovies = [
 input.addEventListener('keyup', (event) => {
   //adding a movie
   if (event.keyCode === 13) {
-    console.log(event.target.value);
     allMovies.push({
       name: event.target.value,
       watched: false,
@@ -35,7 +34,7 @@ function deleteMovie(event) {
 function handleChange(event) {
   let id = event.target.id;
   allMovies[id].watched = !allMovies[id].watched;
-  createMovieUI();
+  createMovieUI(allMovies, rootElm);
 }
 
 function createMovieUI() {
@@ -46,9 +45,10 @@ function createMovieUI() {
       React.createElement('label', { htmlFor: i }, movie.name),
       React.createElement(
         'button',
-        { id: i, onclick: handleChange },
+        { id: i, onClick: handleChange },
         movie.watched ? 'Watched' : 'To Watch'
-      )
+      ),
+      React.createElement('hr', null)
     );
     // let input = document.createElement('input');
     // input.type = 'checkbox';
